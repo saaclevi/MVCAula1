@@ -17,6 +17,9 @@ namespace revisao3b
             Console.WriteLine("Nome:" + p.Nome);
             Console.WriteLine("ID:" + p.Id);
             Console.WriteLine("Email:" + p.Email);
+
+            p.GetInfo();
+            p.GetInfo("Humberto");
         }
     }
 }

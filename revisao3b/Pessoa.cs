@@ -34,5 +34,14 @@ namespace revisao3b
             Email = email;
             Nome = nome;
         }*/
+
+        public void GetInfo()
+        {
+            Console.WriteLine("Info : " + Nome);
+        }
+        public void GetInfo(string nome)
+        {
+            Console.WriteLine("Nome: " + nome);
+        }
     }
 }
